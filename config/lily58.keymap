@@ -42,7 +42,7 @@
 &kp GRAVE  &kp EXCL   		&kp AT            &kp HASH          &kp DOLLAR     &kp PRCNT                   		 &kp CARET			    &kp AMPS  &kp KP_MULTIPLY	 &kp LPAR  &kp RPAR    &trans
 &kp LPAR   &kp HOME         &kp UP            &kp END           &kp RET        &kp KP_PLUS                       &kp KP_MULTIPLY    	&kp F4    &kp MINUS          &kp SQT   &kp F11     &kp RPAR
 &kp LBRC   &kp LEFT         &kp DOWN          &kp RIGHT         &kp DEL        &kp EQUAL                   		 &kp F2 				&kp BSPC  &kp UNDER 		 &kp DQT   &kp COLON   &kp RBRC
-&kp LBKT   &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &kp BSPC       &kp TILDE   &trans   &trans    	 &kp F3    				&kp F5    &kp LT     		 &kp RT    &kp QMARK   &kp RBKT
+&kp LBKT   &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &kp BSPC       &kp TILDE   &trans   &trans    	 &kp F3    				&kp F5    &kp LT     		 &kp GT    &kp QMARK   &kp RBKT
                                               &trans            &trans         &trans    &trans   &trans    &trans    &trans    &trans
 			>;
 
