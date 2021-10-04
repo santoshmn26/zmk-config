@@ -39,10 +39,10 @@
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
-&kp GRAVE  &kp EXCL   	    &kp AT            &kp HASH          &kp DOLLAR     &kp PRCNT                   	 &kp CARET		&kp AMPS  &kp KP_MULTIPLY	 &kp TILDE  &kp RPAR    &kp EQUAL
+&kp GRAVE  &kp EXCL   		&kp AT            &kp HASH          &kp DOLLAR     &kp PRCNT                   		 &kp CARET			    &kp AMPS  &kp KP_MULTIPLY	 &kp TILDE  &kp RPAR    &kp EQUAL
 &kp LPAR   &kp HOME         &kp UP            &kp END           &kp RET        &kp KP_PLUS                       &kp KP_MULTIPLY    	&kp LG(LC(RIGHT))    &kp MINUS          &kp SQT   &kp F11     &kp RPAR
-&kp LBRC   &kp LEFT         &kp DOWN          &kp RIGHT         &kp DEL        &kp EQUAL                   	 &kp F2 		&kp BSPC  &kp UNDER 		 &kp DQT   &kp COLON   &kp RBRC
-&kp LBKT   &C_RESET  	    &ext_power EP_OFF &ext_power EP_TOG &kp BSPC       &kp BSLH   &kp F1   &kp F4    	 &kp F3    		&kp LG(LC(LEFT))    &kp LT     		 &kp GT    &kp QMARK   &kp RBKT
+&kp LBRC   &kp LEFT         &kp DOWN          &kp RIGHT         &kp DEL        &kp EQUAL                   		 &kp F2 				&kp BSPC  &kp UNDER 		 &kp DQT   &kp COLON   &kp RBRC
+&kp LBKT   &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &kp BSPC       &kp BSLH   &kp F1   &kp F4    	 &kp F3    				&kp LG(LC(LEFT))    &kp LT     		 &kp GT    &kp QMARK   &kp RBKT
                                               &kp LALT            &trans         &kp TILDE    &trans   &kp LC(LA(TAB))    &kp LC(TAB)   &trans    &kp LC(LA(DEL))
 			>;
 
@@ -58,8 +58,8 @@
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                         &trans      &trans    &trans    &trans   &trans    &trans
-&kp GRAVE &kp LS(LC(HOME)) &kp LS(LC(UP))  &kp LS(LC(END))  &kp N4  &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0    &trans
-&kp F1    &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(RIGHT))  &kp F5  &kp F6                       &trans      &kp N4  &kp N5  &kp N6   &C_RESET &trans
+&kp GRAVE &kp LS(LC(HOME)) &kp LS(LC(UP)) &kp LS(LC(END))  &kp N4  &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0    &trans
+&kp F1    &kp LS(LC(LEFT)) &kp LS(LC(DOWN)) &kp LS(LC(RIGHT))  &kp F5  &kp F6                       &trans      &kp N4  &kp N5  &kp N6   &kp RIGHT &trans
 &kp F7    &kp LG(LEFT) &kp LG(RIGHT) &kp F10 &kp F11 &kp F12   &trans   &trans    &kp KP_PLUS &kp N1 &kp N2 &kp N3 &kp RBKT  &kp DEL
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
 			>;
